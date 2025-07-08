@@ -1,12 +1,19 @@
 # Portal-Contador-Back
 
 ``npm init -y`` - criar o arquivo package.json
+
 ``npm i typescript @types/node tsx tsup -D``
+
 ``npx tsc --init``
+
 ``npm i fastify``
+
 ``npm i dotenv``
+
 ``npm i zod``
+
 ``npm i eslint @rocketseat/eslint-config -D``
+
 
 config no tsconfig.json para facilitar os import de arquivos
 ``"baseUrl": "./",
