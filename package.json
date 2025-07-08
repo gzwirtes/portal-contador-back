@@ -1,0 +1,36 @@
+{
+  "name": "portal-contador-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzwirtes/portal-contador-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzwirtes/portal-contador-back/issues"
+  },
+  "homepage": "https://github.com/gzwirtes/portal-contador-back#readme",
+  "devDependencies": {
+    "@types/node": "24.0.10",
+    "ts-node-dev": "^2.0.0",
+    "tsup": "8.5.0",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "fastify": "5.4.0"
+  }
+}
