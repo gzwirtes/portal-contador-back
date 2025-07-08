@@ -1,23 +1,23 @@
 # Portal-Contador-Back
 
-``npm init -y - criar o arquivo package.json
-``npm i typescript @types/node tsx tsup -D
-``npm tsc --init
-``npm i fastify
-``npm i dotenv
-``npm i zod
-``npm i eslint @rocketseat/eslint-config -D
+``npm init -y - criar o arquivo package.json``
+``npm i typescript @types/node tsx tsup -D``
+``npm tsc --init``
+``npm i fastify``
+``npm i dotenv``
+``npm i zod``
+``npm i eslint @rocketseat/eslint-config -D``
 
 config no tsconfig.json para facilitar os import de arquivos
-"baseUrl": "./",
+``"baseUrl": "./",
 "paths": {
 	"@/": ["./src/*"]
-},
+},``
 
-``npm i prisma -D // instala a depêndencia de desenvolvimento
-``npm i @prisma/client // instala a depêndencia de produção, para acessar o banco
-``npx prisma init - inicia o prisma dentro do projeto
-``npx prisma generate - inicia o prisma dentro do projeto
+``npm i prisma -D`` - instala a depêndencia de desenvolvimento
+``npm i @prisma/client`` - instala a depêndencia de produção, para acessar o banco
+``npx prisma init`` - inicia o prisma dentro do projeto
+``npx prisma generate`` - inicia o prisma dentro do projeto
 
 
 - [ ] POST | /auth/login | Login do contador
