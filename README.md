@@ -1,8 +1,8 @@
 # Portal-Contador-Back
 
-``npm init -y - criar o arquivo package.json``
+``npm init -y`` - criar o arquivo package.json
 ``npm i typescript @types/node tsx tsup -D``
-``npm tsc --init``
+``npx tsc --init``
 ``npm i fastify``
 ``npm i dotenv``
 ``npm i zod``
